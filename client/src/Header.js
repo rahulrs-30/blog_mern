@@ -26,7 +26,7 @@ const Header = () => {
     return (
         <header>
             <Link to="/" className="logo">
-                My Blog
+                BlogZone
             </Link>
             <nav>
                 {username && (
