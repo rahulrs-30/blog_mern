@@ -2,8 +2,13 @@
   box-sizing: border-box;
 }
 
+
+a{
+  cursor: pointer;
+}
 body{
   color: #222;
+  background: linear-gradient(to right, #d9a7c7, #a7c7d9);
 }
 img{
   max-width: 100%;
@@ -13,6 +18,7 @@ main{
   padding: 10px;
   max-width: 960px;
   margin: 0 auto;
+  background: #fdfdfd;
 }
 header{
   display: flex;
@@ -25,15 +31,18 @@ header{
 header a{
   text-decoration: none;
   color: inherit;
+  
 }
 header a.logo{
   font-weight: bold;
   font-size: 1.5rem;
   
+  
 }
 header nav{
   display: flex;
   gap: 15px;
+  
 }
 
 div.post{
@@ -64,14 +73,14 @@ div.post div.texts a{
 
 div.post p.info{
   margin: 6px 0;
-  color: #888;
+  color: #000000;
   font-size: .9rem;
   font-weight: bold;
   display: flex;
   gap: 10px;
 }
 div.post p.info a.author{
-  color: #333;
+  color: #000000;
 }
 div.post p.summary{
   margin: 10px 0;
@@ -87,7 +96,7 @@ input{
   margin-bottom: 5px;
   width: 100%;
   padding: 5px 7px;
-  border: 2px solid #DDD;
+  border: 2px solid #000000;
   border-radius: 5px;
   background-color: #FFF;
 }
@@ -99,6 +108,7 @@ button{
   border: 0;
   border-radius: 5px;
   padding: 7px 0;
+  cursor: pointer;
 }
 
 form.login h1, form.register h1{
